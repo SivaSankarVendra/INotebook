@@ -1,0 +1,3 @@
+npm run both
+npm run build
+npm run start

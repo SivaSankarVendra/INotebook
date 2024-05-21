@@ -1,0 +1,14 @@
+const s1 = {
+        "name": "Ammu",
+        "class": "b-tech"
+    };
+    const [state,setState] = useState(s1)
+    const update=()=>{
+        setTimeout(()=>{
+            setState({
+                "name": "shiva",
+                "class": "civil"
+            })
+        },1000);
+    }
+    value = {{state:state,update:update}}
